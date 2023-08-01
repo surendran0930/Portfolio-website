@@ -1,0 +1,68 @@
+
+
+.first_page_bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../Assets/Images/main_page-bg_image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+/* background images for ful width */
+.first_page_bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Assets/Images/main_page-bg_image.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+/* background images for ful width */
+a link a::after{
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background: chartreuse;
+}
+/* **********************about*************** */
+<div class="about_container flex">
+
+                <div class="about_image_parent">
+                    <img src="../Assets/Images/sampple pic.jpg" alt="myphoto" class="about_image">
+
+                </div>
+                <div class="about_details">
+                    <div>
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="about_detail_child flex">
+                        <div class="about_names flex">
+                            <h4>name :</h4>
+                            <p>surendran.k</p>
+                        </div>
+                        <div class="about_names flex">
+                            <h4>profile :</h4>
+                            <p>front-end developer</p>
+                        </div>
+                        <div class="about_names flex">
+                            <h4>contact-no :</h4>
+                            <p>surendran.k</p>
+                        </div>
+                        <div class="about_names flex">
+                            <h4>email :</h4>
+                            <p>surendran.k</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+<div>

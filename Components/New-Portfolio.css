@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ body{
+/* background-color: black;
+color: beige;  */
+ font-family: sans-serif;
+ background-color: #d8dfe6;
+ 
+ /* background-color: #d1d5db; */
+ 
+
+}  
+.Education,.my_skills_heading,.work_container_heading,
+.about_heading,.contact_heading{
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;  /* this is default */
+    /* text-shadow: 2px 2px 5px  #383737; */
+  
+    
+}
+.flex {
+    display: flex;
+}
+/* ********************hamburger************ */
+.menu_line{
+    height: 5px;
+    width: 30px;
+    background-color: aquamarine;
+    margin-bottom: 5px;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.first_back_image{
+    background-image: url(../Assets/Images/black\ background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main_container {
+    width: 90%;
+    margin: 0px;
+    padding: 0px 10px;
+
+}
+
+.main_page_header {
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.main_page_header h2{
+    color: #ffffff;
+    
+}
+
+.main_container_parent {
+    justify-content: center;
+}
+
+.main-div-flex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-style: Bebas Neue;
+    gap: 0px;
+   
+}
+.main-div-flex h1{
+    /* margin-top: 50px; */
+    color: #ffffff;
+    text-shadow: 2px 2px 5px red;
+    
+}
+.main-div-flex h3{
+    text-shadow: 2px 2px 5px red;
+}
+
+
+/* header*****section start*** */
+.header_navbar a {
+    text-decoration: none;
+    font-size: 24px;
+    color:#ffffff;
+    /* color: beige; */
+    padding: 15px;
+    margin: 10px;
+}
+
+/* .header_navbar a::after {
+    content: ' '; */
+                    /* header a tag link hover method  */
+    .header_navbar a {
+        position: relative;
+      }
+      
+      .header_navbar a::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 4px;
+          border-radius: 4px;
+          background-color: #ffffff;
+          bottom: 0;
+          left: 0;
+          transform-origin: right;
+          transform: scaleX(0);
+          transition: transform .3s ease-in-out;
+        }
+      
+        .header_navbar a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+.header_links {
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+/* // EDUCATION SECTION START  */
+.education_section_img {
+    max-width: auto;
+    /* height:max-content ; */
+   
+}
+.Education{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.Education_details {
+    /* border: 2px solid rgb(113, 113, 113); */
+    box-shadow: 2px 2px 10px rgb(132, 134, 134);
+ 
+    text-align: center;
+    height: max-content;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #ffffff;
+
+
+}
+
+.Education_details h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+   
+
+}
+
+.Education_details p {
+    font-size: 20px;
+
+}
+.education_icons{
+    width: 100px;
+    height: 100px;
+}
+
+.Education_container {
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.Education_details_parent {
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.my_skills_img{
+    height: 50px;
+    width: 50px;
+}
+/* .my_skills_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; */
+/* } */
+.my_skills_img_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+    
+}
+.my_skills_container{
+    margin-bottom: 50px;
+    background-color:  #ffffff;;
+}
+.my_skills_img_container p{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.my_skills_heading{
+    
+    text-align: center;
+    margin-bottom:  50px;
+   
+    
+}
+
+    
+   
+
+/* ****************my works************* */
+.work_imgs{
+    width: 400px;
+    /* height: 300px; */
+    /* box-shadow: 5px 5px 10px rgb(89, 90, 90); */
+    box-shadow: 2px 2px 10px rgb(132, 134, 134);
+    padding: 10px;
+}
+.work_img_container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+    
+}
+.work_container_heading{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.work_container{
+    margin-bottom: 80px;
+    background-color: #ffffff;
+    
+}
+/* ********************about******************* */
+.about_container{
+    gap: 20px;
+    /* border: 2px solid; */
+    justify-content: center;
+}
+.about_image{
+    max-width: 0;
+}
+
+
+
+
+.about_me{
+    /* border: 2px solid rgb(89, 90, 90) ; */
+    border-radius: 10px 10px;
+    /* box-shadow: 5px 5px 10px rgb(89, 90, 90); */
+    /* border: 2px solid rgb(113, 113, 113); */
+    box-shadow: 2px 2px 10px rgb(132, 134, 134);
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+       background-color: #ffffff;
+}
+.about_heading{
+    text-align: center;
+}
+.about_me p{
+font-size: 24px;
+text-align: center;
+line-height: 1.5; 
+text-transform: capitalize;
+
+}
+
+.my_image{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 10px rgb(89, 90, 90); */
+    box-shadow: 5px 5px 10px rgb(132, 134, 134);
+    
+}
+.about_container{
+    gap: 10px;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 80px;
+    padding: 10px;
+    
+}
+.my_image_class{
+    display: flex;
+    flex-basis: 40%;
+}
+
+.contact_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: #5c5b5b; */
+}
+.contact_heading{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+.contact_img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+.contact_details{
+    display: flex;
+}
+/* ******************************media query ******************** */
+
+/* @media screen and (max-width: 480px) */
+@media  (min-width:320px) and (max-width:767px) 
+{
+    .navbar{
+        display: block;
+    }
+    .main-div-flex {
+        gap: 10px;
+    }
+    .main-div-flex h1{
+        /* margin: auto; */
+        font-size: 32px
+    }   
+    .main-div-flex h3{
+        font-size: 20px;
+    }
+.my_skills_img_container
+{
+    display: block;
+    text-align: center;
+    margin: 80px;
+}
+.my_skills_container,.work_container,
+.about_container{
+    margin-bottom: 80px;
+}
+.my_skills_container h2{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header_links{
+    display: none;
+    }
+    /* .menu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 10px; */
+    /* } */
+.skill-box
+{
+    width:100px;
+    margin:auto;
+    margin-bottom: 30px;
+}
+.Education{
+    margin:  20px auto;
+    font-size: 25px;
+    
+
+}
+.Education_container{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.education_section_img{
+max-width: 250px;
+margin-bottom: 30px;
+}
+.about_image{
+    width: 300px;
+}
+.Education{
+    text-align: center;
+}
+.Education_details{
+    margin: 0;
+    display: block;
+}
+.about_container{
+    display: block;
+    margin:auto;
+    
+}
+.work_imgs{
+    width: 250px;
+
+}
+.work_container_heading{
+    margin-bottom: 20px;
+}
+.my_image_class{
+    display: block;
+    margin: auto auto 30px;
+}
+.my_image{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.my_skills_heading {
+    margin-bottom: 30px;
+}
+
+.about_icons{
+    display: block;
+    margin: auto;
+}
+.about_me p{
+    font-size: 16px;
+}
+.Education,.my_skills_heading,.work_container_heading,
+.about_heading,.contact_heading{
+    font-size: 23px;
+}
+.contact_container{
+    display: block;
+    margin: auto;
+}
+
+.contact_contents{
+    display: block;
+    margin: auto;
+    /* width: 50%; */
+}
+.contact_img{
+    width: 40px;
+    height: 40px;
+}
+.contact_section{
+    display: flex;
+    justify-content: center;
+}
+}
+
+/* ********************media query with 768 to 992***************** */
+
+@media  (min-width:768px) and (max-width:1023px) {
+    .navbar{
+        display: none;
+    }
+    .main-div-flex {
+        gap: 10px;
+    }
+    
+    .main_page_header{
+        display: flex;
+        justify-content: center;
+    }
+    .main-div-flex h1{
+        font-size: 50px;
+    }
+    .main-div-flex h3{
+        font-size: 30px;
+    }
+    .Education,.my_skills_heading,.work_container_heading,
+   .about_heading,.contact_heading{
+    font-size: 26px;
+    }
+    .Education {
+        margin-bottom: 30px;
+    }
+    .Education_container{
+        display: block;
+    }
+    .Education_details{
+        margin-bottom: 30px;
+        padding: 16px;
+    }
+
+    .education_section_img{
+    width: 0px;
+    margin-bottom: 30px;
+    }
+    .work_imgs{
+        width: 280px;
+        margin-bottom: 30px;
+    }
+    .about_me p{
+        font-size: 20px;
+        
+    }
+    .my_image{
+        width: 320px;
+    }
+    .about_container{
+        gap: 31px;
+        margin-bottom: 30px;
+    }
+    .contact_section {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .contact_heading{
+        margin: 0;
+    }
+    .my_skills_container{
+        padding: 10px;
+    }
+    .my_skills_heading {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+}
+@media  (min-width:1024px) and (max-width:1500px){
+.navbar{
+    display: none;
+}
+.main-div-flex {
+    gap: 10px;
+}
+.main_page_header{
+    display: flex;
+    justify-content: center;
+}
+.about_container{
+    gap: 31px;
+    margin-bottom: 30px;
+}
+.contact_section{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.contact_heading{
+    margin: 0;
+}
+.my_skills_heading {
+    margin-bottom: 30px;
+}
+/* .main-div-flex h1{
+    font-size: 50px;
+}
+.main-div-flex h3{
+    font-size: 40px;
+    
+} */
+.main-div-flex{
+    font-size: 26px;
+}
+.work_container{
+    padding: 10px;
+}
+}
+    
